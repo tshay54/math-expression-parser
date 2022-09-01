@@ -1,13 +1,13 @@
 package io.github.facaiy.math.expression.compiler.parser
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
 import io.github.facaiy.math.expression.compiler.MathExpCompiler
 
 /**
  * Created by facai on 6/9/17.
  */
-class MathExpParserSuite extends FunSpec {
+class MathExpParserSuite extends AnyFunSpec {
   describe("For math expression") {
     it("parse string to tokens correctly") {
       val expression = "1.0 ** 2 + 2 * $data - power(2, 10) / 4."

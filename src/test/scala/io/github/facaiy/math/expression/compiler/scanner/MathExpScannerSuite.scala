@@ -1,13 +1,13 @@
 package io.github.facaiy.math.expression.compiler.scanner
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
 import io.github.facaiy.math.expression.MathExpScannerError
 
 /**
  * Created by facai on 6/8/17.
  */
-class MathExpScannerSuite extends FunSpec {
+class MathExpScannerSuite extends AnyFunSpec {
   describe("For tokens") {
     import io.github.facaiy.math.expression.compiler.scanner.MathExpScanner._
 

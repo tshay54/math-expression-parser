@@ -1,11 +1,11 @@
 package io.github.facaiy.math.expression
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
 /**
  * Created by facai on 6/19/17.
  */
-class MathExpSuite extends FunSpec {
+class MathExpSuite extends AnyFunSpec {
   describe("MathExp") {
     it("valid string") {
       val str = "1.0 + sqrt(2 * $a1) + $a2 ** 2"
