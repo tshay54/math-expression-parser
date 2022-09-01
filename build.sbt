@@ -5,7 +5,7 @@ lazy val scalacheckVersion = "1.15.4"
 lazy val scala212 = "2.12.6"
 lazy val scala213 = "2.13.7"
 lazy val scalatest = "3.2.11"
-lazy val parserCombinations = "2.1.1"
+lazy val parserCombinations = "1.1.2"
 
 ThisBuild / publishTo := {
   val nexus = "https://oss.sonatype.org/"
